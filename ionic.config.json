@@ -1,0 +1,7 @@
+{
+  "name": "situm-capacitor-wayfinding",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
