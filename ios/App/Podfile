@@ -13,6 +13,8 @@ def capacitor_pods
   pod 'CapacitorHaptics', :path => '../../node_modules/@capacitor/haptics'
   pod 'CapacitorKeyboard', :path => '../../node_modules/@capacitor/keyboard'
   pod 'CapacitorStatusBar', :path => '../../node_modules/@capacitor/status-bar'
+  pod 'SitumCapacitorGooglemapsNative', :path => '../../node_modules/situm-capacitor-googlemaps-native'
+  pod 'SitumCapacitorPluginWayfinding', :path => '../../node_modules/situm-capacitor-plugin-wayfinding'
 end
 
 target 'App' do

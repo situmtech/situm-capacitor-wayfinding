@@ -13,6 +13,8 @@ dependencies {
     implementation project(':capacitor-haptics')
     implementation project(':capacitor-keyboard')
     implementation project(':capacitor-status-bar')
+    implementation project(':situm-capacitor-googlemaps-native')
+    implementation project(':situm-capacitor-plugin-wayfinding')
 
 }
 

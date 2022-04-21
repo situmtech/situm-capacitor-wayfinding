@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'situm-capacitor-wayfinding',
+  appId: 'es.situm.capacitor.wayfinding',
+  appName: 'Situm Wayfinding',
   webDir: 'www',
   bundledWebRuntime: false
 };
