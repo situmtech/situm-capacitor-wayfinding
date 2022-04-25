@@ -23,10 +23,12 @@
   text-decoration: none;
 }
 
-:root {
-  --ion-background-color: transparent;
-}
-
 ion-content {
   --background: none;
 }
+
+ion-toolbar {
+  --color: #283380;
+  --background: #EDEAE2;
+}
+
