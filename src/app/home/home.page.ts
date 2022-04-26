@@ -12,16 +12,15 @@ export class HomePage {
 
   // LibrarySettings:
   readonly librarySettings = {
-    user: "situm_user",
-    apiKey: "situm_apikey",
+    user: "demoaccount@situm.com",
+    apiKey: "f3ef40b65ffd1574403ffef0669bab69c9040463cf16567e12a45e2e2407bb86",
     iosGoogleMapsApiKey: "ios_goole_maps_apikey",
-    buildingId : "building_id",
+    buildingId : "7033",
     dashboardUrl: "https://dashboard.situm.com",
     hasSearchView: true,
     searchViewPlaceholder: "Capacitor WYF",
     useDashboardTheme: false,
   };
-
 
   //When the app is loaded
   ionViewDidEnter(){
@@ -34,7 +33,7 @@ export class HomePage {
     if (!element) {
       return;
     }
-    
+  
     try {
       const wyfResponse = await SitumWayfinding.load(element, this.librarySettings);
     } catch (e) {
