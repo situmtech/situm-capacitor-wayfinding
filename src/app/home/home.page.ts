@@ -37,6 +37,9 @@ export class HomePage {
     try {
       const wyfResponse = await SitumWayfinding.load(element, this.librarySettings);
     } catch (e) {
+      console.log('ATAG: // ERROR:');
+      console.log(`ATAG: ${e}`);
+      console.log('ATAG: // END ERROR.');
     }
   }
 }
