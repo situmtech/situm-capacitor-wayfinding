@@ -1,5 +1,5 @@
 # situm-capacitor-wayfinding
-Situm Capacitor Wayfinding is a base app that demostrates the capabilies of [Situm Wayfinding Plugin For Capacitor](https://github.com/situmtech/situm-capacitor-plugin-wayfinding). It has be done using Ionic Angular.
+Situm Capacitor Wayfinding is a base app made with [Situm Wayfinding Plugin For Capacitor](https://github.com/situmtech/situm-capacitor-plugin-wayfinding). It has been done using Ionic Angular.
 
 ## Configuration
 The app already provides Situm demo account credentials. Therefore you only need to provide a valid Google Maps API KEY. 
@@ -20,6 +20,16 @@ const librarySettings = {
     android:value="YOUR_ANDROID_GOOGLE_MAPS_APIKEY"/>
 ```
 
+## Build
+
+Run `npm  install` to install the dependencies.
+
+Run `ionic build` to build the project.
+
+Run `ionic cap sync` to keep the native layer up to date.
+
+Finally open your android/iOS platform project and execute them.
+
 ## Customization 
 
 ### Icons and splash Screen
@@ -29,17 +39,7 @@ You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and
 
 1. iOS: 
 
-Open Xcode, you can run `ionic cap open ios` from Terminal.
-
-App name and Bundle Identifier are defined in the `General` tab of your `Target`
+* Open Xcode, you can run `ionic cap open ios` from Terminal.
+* App name and Bundle Identifier are defined in the `General` tab of your `Target`.
 
 2. Android: 
-
-
-## Build
-
-Run `ionic build` to build the project.
-
-Run `ionic cap sync` to keep the native layer up to date.
-
-Finally open your android/iOS platform project and execute them.
