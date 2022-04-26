@@ -41,5 +41,18 @@ You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and
 
 * Open Xcode, you can run `ionic cap open ios` from Terminal.
 * App name and Bundle Identifier are defined in the `General` tab of your `Target`.
+* More info and configuration options at the official [Capacitor docs](https://capacitorjs.com/docs/ios/configuration).
 
 2. Android: 
+
+* To change your Application ID edit `applicationId` at the top of android/app/build.gradle:
+  ```groovy
+    defaultConfig {
+    -       applicationId "es.situm.wayfinding.capacitor"
+    +       applicationId "com.mycompany.myapp"
+  ```
+* To change the name of your app, modify the value for `app_name` (and probably `title_activity_main`) in strings.xml:
+  ```xml
+    <string name="app_name">MyApp</string>
+  ```
+* More info and configuration options at the official [Capacitor docs](https://capacitorjs.com/docs/android/configuration).
