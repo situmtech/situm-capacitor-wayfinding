@@ -9,6 +9,7 @@ Situm Capacitor Wayfinding is an app that shows your buildings and lets you loca
 <div align="center" style="text-align:center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Latest version:](https://img.shields.io/npm/v/@situm/sdk-js/latest)
 
 </div>
 
@@ -96,7 +97,6 @@ We use [SemVer](http://semver.org/) for versioning.
 
 Please refer to [CHANGELOG.md](CHANGELOG.md) for a list of notables changes for each version of the library.
 
-You can also see the [tags on this repository](https://github.com/situmtech/situm-sdk-js/tags).
 
 ## Submitting Contributions
 
