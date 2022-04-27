@@ -13,7 +13,7 @@ Situm Capacitor Wayfinding is an app that shows your buildings and lets you loca
 </div>
 
 ## What's in here
-![](./docs/assets/app-preview.png)
+<img src="https://github.com/situmtech/situm-capacitor-wayfinding/blob/feature/readme_improvements/docs/assets/app-preview.png?raw=true" width="300">
 
 ## Getting started
 
@@ -44,10 +44,26 @@ Run `ionic build` to build the project.
 
 Run `ionic cap sync` to keep the native layer up to date.
 
-Finally open your android/iOS platform project with `ionic cap open ios` or `ionic cap open android` and execute them. In iOS you will need to provide the proper `Team` in the `Signing And Capabilities` tab of your `Target`.
+Finally open your android/iOS platform project with `ionic cap open ios` or `ionic cap open android` and execute them. 
+
+In iOS you will need to provide the proper `Team` in the `Signing And Capabilities` tab of your `Target`.
 
 
-## Customization. Make this app your own. 
+## Customization. Make this app your own 
+
+### Provide your own Situm Account Credentials
+
+Put your SITUM USER and API KEY in the `LibrarySettings` object that you can find in `src/app/home/home.page.ts`. 
+```typescript
+const librarySettings = {
+          ...
+          user: 
+          "YOUR_SITUM_USER",
+          apiKey: 
+          "YOUR_SITUM_APIKEY",
+          ...
+        };
+```
 
 ### Icons and splash Screen
 You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and-icons) to simplify the generation of icons and splash screens. 
