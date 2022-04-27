@@ -30,10 +30,10 @@ Run `ionic cap sync` to keep the native layer up to date.
 
 Finally open your android/iOS platform project and execute them.
 
-## Customization 
+## Customization. Make this app your own. 
 
 ### Icons and splash Screen
-You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and-icons) to simplify the generation of icons and splash screens 
+You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and-icons) to simplify the generation of icons and splash screens. 
 
 ### Change App Name and Bundle Identifier
 
