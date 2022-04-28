@@ -1,7 +1,24 @@
-# situm-capacitor-wayfinding
-Situm Capacitor Wayfinding is a base app made with [Situm Wayfinding Plugin For Capacitor](https://github.com/situmtech/situm-capacitor-plugin-wayfinding). It has been done using Ionic Angular.
+<p align="center"> <img width="233" src="https://situm.com/wp-content/themes/situm/img/logo-situm.svg" style="margin-bottom:1rem" /> <h1 align="center">Situm Capacitor Wayfinding App</h1> </p>
 
-## Configuration
+<p align="center" style="text-align:center">
+
+Situm Capacitor Wayfinding is an app that shows your buildings and lets you locate and navigate on them. It has been made with [Situm Wayfinding Plugin For Capacitor](https://github.com/situmtech/situm-capacitor-plugin-wayfinding) and using Ionic Angular.
+
+</p>
+
+<div align="center" style="text-align:center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Latest version:](https://img.shields.io/npm/v/@situm/sdk-js/latest)
+
+</div>
+
+## What's in here
+<img src="https://github.com/situmtech/situm-capacitor-wayfinding/blob/feature/readme_improvements/docs/assets/app-preview.png?raw=true" width="300">
+
+## Getting started
+
+### Configuration
 The app already provides Situm demo account credentials. Therefore you only need to provide a valid Google Maps API KEY. 
 More info is available in the official [Google Documentation](https://developers.google.com/maps/documentation/android-sdk/get-api-key).
 Make sure to enable your API KEY for the platforms of your choice.
@@ -20,7 +37,7 @@ const librarySettings = {
     android:value="YOUR_ANDROID_GOOGLE_MAPS_APIKEY"/>
 ```
 
-## Build
+### Build
 
 Run `npm  install` to install the dependencies.
 
@@ -28,9 +45,26 @@ Run `ionic build` to build the project.
 
 Run `ionic cap sync` to keep the native layer up to date.
 
-Finally open your android/iOS platform project and execute them.
+Finally open your android/iOS platform project with `ionic cap open ios` or `ionic cap open android` and execute them. 
 
-## Customization. Make this app your own. 
+In iOS you will need to provide the proper `Team` in the `Signing And Capabilities` tab of your `Target`.
+
+
+## Customization. Make this app your own 
+
+### Provide your own Situm Account Credentials
+
+Put your SITUM USER and API KEY in the `LibrarySettings` object that you can find in `src/app/home/home.page.ts`. 
+```typescript
+const librarySettings = {
+          ...
+          user: 
+          "YOUR_SITUM_USER",
+          apiKey: 
+          "YOUR_SITUM_APIKEY",
+          ...
+        };
+```
 
 ### Icons and splash Screen
 You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and-icons) to simplify the generation of icons and splash screens. 
@@ -56,3 +90,18 @@ You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and
     <string name="app_name">MyApp</string>
   ```
 * More info and configuration options at the official [Capacitor docs](https://capacitorjs.com/docs/android/configuration).
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning.
+
+Please refer to [CHANGELOG.md](CHANGELOG.md) for a list of notables changes for each version of the library.
+
+
+## Submitting Contributions
+
+You will need to sign a Contributor License Agreement (CLA) before making a submission. [Learn more here.](https://situm.com/contributions/)
+
+## License
+
+This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
