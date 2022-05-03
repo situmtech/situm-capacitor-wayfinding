@@ -2,19 +2,30 @@
 
 <p align="center" style="text-align:center">
 
-Situm Capacitor Wayfinding is an app that shows your buildings and lets you locate and navigate on them. It has been made with [Situm Wayfinding Plugin For Capacitor](https://github.com/situmtech/situm-capacitor-plugin-wayfinding) and using Ionic Angular.
+Situm Capacitor Wayfinding is an indoor positioning hybrid app that shows your buildings and lets you locate and navigate on them. It has been made with [Situm Wayfinding Plugin For Capacitor](https://github.com/situmtech/situm-capacitor-plugin-wayfinding) using Ionic Angular.
 
 </p>
 
 <div align="center" style="text-align:center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![Latest version:](https://img.shields.io/npm/v/@situm/sdk-js/latest)
+![iOS Dependency](https://img.shields.io/badge/iOS-%3E%3D10.0-green)
+![Android Dependency](https://img.shields.io/badge/android-%3E%3D5.0-GREEN)
 
 </div>
 
 ## What's in here
+
+This project creates a indoor positioning app made in Ionic Angular. Below you can see some snapshots of this app. 
+
 <img src="https://github.com/situmtech/situm-capacitor-wayfinding/blob/feature/readme_improvements/docs/assets/app-preview.png?raw=true" width="300">
+
+This app will allow you to:
+
+* Explore a building from our Demo Account. However you can easily change the credentials to explore a building from your own account.
+* Once properly calibrated locate the user in this building.
+* Provide navigation instructions to a given point.
+
 
 ## Getting started
 
@@ -93,15 +104,28 @@ You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning.
+Please refer to [CHANGELOG.md](./CHANGELOG.md) for a list of notables changes for each version of the plugin.
 
-Please refer to [CHANGELOG.md](CHANGELOG.md) for a list of notables changes for each version of the library.
+You can also see the [tags on this repository](https://github.com/situmtech/situm-android-getting-started/tags).
 
+---
 
-## Submitting Contributions
+## Submitting contributions
 
-You will need to sign a Contributor License Agreement (CLA) before making a submission. [Learn more here.](https://situm.com/contributions/)
+You will need to sign a Contributor License Agreement (CLA) before making a submission. [Learn more here](https://situm.com/contributions/). 
 
+---
 ## License
+This project is licensed under the MIT - see the [LICENSE](./LICENSE) file for further details.
 
-This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
+---
+
+## More information
+
+More info is available at our [Developers Page](https://situm.com/docs/01-introduction/).
+
+---
+
+## Support information
+
+For any question or bug report, please send an email to [support@situm.es](mailto:support@situm.es)
