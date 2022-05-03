@@ -10,6 +10,7 @@ Situm Capacitor Wayfinding is an indoor positioning hybrid app that shows your b
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![iOS Dependency](https://img.shields.io/badge/iOS-%3E%3D10.0-green)
+![Android Dependency](https://img.shields.io/badge/android-%3E%3D5.0-GREEN)
 
 </div>
 
