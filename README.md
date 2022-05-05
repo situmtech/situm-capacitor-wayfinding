@@ -50,6 +50,10 @@ const librarySettings = {
 
 ### Build
 
+Install Ionic CLI (Commnad Line Tools). You can follow the intructions provided in the [Ionic page](https://ionicframework.com/docs/intro/cli#install-the-ionic-cli). You only need to perform the instructions under  `Install the Ionic CLI ` title.
+
+Once you have downloaded this repository:
+
 Run `npm  install` to install the dependencies.
 
 Run `ionic build` to build the project.
@@ -102,6 +106,14 @@ You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and
   ```
 * More info and configuration options at the official [Capacitor docs](https://capacitorjs.com/docs/android/configuration).
 
+### Change app header title
+
+* Open `src/app/home/home.page.html` and change the text between the `ion-title` tags to the one you prefer.
+  ```xml
+    <ion-title>
+      Situm Wayfinding
+    </ion-title>
+  ```
 ## Versioning
 
 Please refer to [CHANGELOG.md](./CHANGELOG.md) for a list of notables changes for each version of the plugin.
