@@ -1,1 +1,1 @@
-* Fixed a bug causing black screen on older iPhones
+* Fixed a bug that caused a black screen by forcing light mode
