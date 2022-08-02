@@ -114,6 +114,13 @@ You can use [cordova-res](https://capacitorjs.com/docs/guides/splash-screens-and
       Situm Wayfinding
     </ion-title>
   ```
+
+## Known issues
+
+### Dark mode
+
+If the dark mode is activated in older versions of the project, the map is not visible. The problem is already solved.
+
 ## Versioning
 
 Please refer to [CHANGELOG.md](./CHANGELOG.md) for a list of notables changes for each version of the plugin.
