@@ -14,6 +14,10 @@ Situm Capacitor Wayfinding is an indoor positioning hybrid app that shows your b
 
 </div>
 
+> [!IMPORTANT]  
+> This guide refers to the old version of the Wayfinding module, which is **no longer maintained**. We strongly recommend adopting [MapView](https://developers.situm.com/sdk_documentation/cordova/jsdoc/latest/mapview), the new visual component available at [@situm/cordova](https://github.com/situmtech/cordova) for both Cordova and Capacitor.
+To stay up to date, checkout the [Cordova SDK Changelog](https://situm.com/docs/cordova-sdk-changelog/) and the [example app](https://github.com/situmtech/cordova/tree/master/example) at the public repository.
+
 ## What's in here
 
 This project creates a indoor positioning app made in Ionic Angular. Below you can see some snapshots of this app. 
